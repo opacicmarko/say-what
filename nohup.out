@@ -1,1 +1,0 @@
-./say.sh: line 23: 25398 Terminated: 15          sleep $INITIAL_TIMEOUT
