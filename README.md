@@ -8,7 +8,5 @@ git clone https://github.com/opacicmarko/say-what
 
 chmod +x say-what/say.sh
 
-nohup ./say-what/say.sh 2>&1 &
-
-clear
+./say-what/say.sh
 ```
