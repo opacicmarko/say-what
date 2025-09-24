@@ -6,7 +6,9 @@
 ```bash
 git clone https://github.com/opacicmarko/say-what
 
-chmod +x say-what/say.sh
-
 ./say-what/say.sh
+```
+If the script is not executing, run this command before executing the script again:
+```bash
+chmod +x say-what/say.sh
 ```
