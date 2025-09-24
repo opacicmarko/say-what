@@ -11,12 +11,11 @@ git clone https://github.com/opacicmarko/say-what && ./say-what/say.sh
 To stop the script you need to kill the script process:
 1. List running processes
 ```bash
-ps
+ps -A | grep say
 ```
 2. Find the ID of the process in question
 ```bash
   PID TTY           TIME CMD
- 4970 ttys000    0:04.16 -zsh
 26115 ttys000    0:00.00 /bin/bash ./say-what/say.sh       <-- THE say.sh process
 ```
 3. Kill the process using the PID
